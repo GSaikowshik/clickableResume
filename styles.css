@@ -1,0 +1,86 @@
+/* --- Global Styles --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background for the page */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; /* Adds space so cards don't touch the screen edge */
+}
+
+/* --- Content Sections (The "Cards") --- */
+header,
+main section {
+    max-width: 900px; /* Sets a max width for readability */
+    margin: 20px auto; /* Centers the content blocks */
+    padding: 25px;
+    background-color: #ffffff; /* White background for the content */
+    border-radius: 8px; /* Soft rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* --- Header (Name & Contact) --- */
+header {
+    text-align: center;
+    border-bottom: 4px solid #005a9c; /* Professional blue accent */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #111;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* --- Main Content Sections --- */
+main h2 {
+    font-size: 1.8em;
+    color: #005a9c; /* Blue section titles */
+    border-bottom: 2px solid #eee; /* Light underline for titles */
+    padding-bottom: 8px;
+    margin-top: 0; /* Remove default space above h2 */
+}
+
+/* --- Links --- */
+a {
+    color: #0073e6; /* Bright, clickable blue */
+    text-decoration: none; /* Removes underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for clarity */
+}
+
+/* --- Lists (Experience, Projects, etc.) --- */
+ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Standard bullet point */
+}
+
+li {
+    margin-bottom: 12px; /* Adds space between list items */
+}
+
+/* Style for nested lists (like in your Leadership section) */
+li ul {
+    margin-top: 8px; /* Adds space before the nested list */
+    list-style-type: circle; /* Changes bullet for sub-items */
+}
+
+/* Make job/project titles stand out */
+strong {
+    color: #111; /* Darker text for titles */
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 30px;
+}
